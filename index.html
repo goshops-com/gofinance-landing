@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="GoFinance – Enterprise AI Platform for Financial Institutions" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoFinance – Enterprise AI Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Navbar -->
+  <header class="w-full bg-white shadow-sm">
+    <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <img src="https://www.gopersonal.com/newlogo.svg" alt="GoFinance Logo" class="w-32">
+      </div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#" class="hover:text-blue-600 transition">Solutions</a>
+        <a href="#" class="hover:text-blue-600 transition">Platform</a>
+        <a href="#" class="hover:text-blue-600 transition">Security</a>
+        <a href="#" class="hover:text-blue-600 transition">Resources</a>
+      </div>
+      <div class="hidden md:block">
+        <a href="#" class="bg-blue-600 text-white font-semibold px-5 py-2 rounded-md hover:bg-blue-700 transition">
+          Request Demo
+        </a>
+      </div>
+      <div class="md:hidden">
+        <button class="text-slate-700 focus:outline-none" onclick="document.getElementById('mobileMenu').classList.toggle('hidden')">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div id="mobileMenu" class="hidden md:hidden bg-white shadow">
+      <div class="px-6 py-4">
+        <a href="#" class="block py-2 hover:text-blue-600">Solutions</a>
+        <a href="#" class="block py-2 hover:text-blue-600">Platform</a>
+        <a href="#" class="block py-2 hover:text-blue-600">Security</a>
+        <a href="#" class="block py-2 hover:text-blue-600">Resources</a>
+        <a href="#" class="block mt-2 w-full text-center bg-blue-600 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-700 transition">
+          Request Demo
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-slate-900 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-600 to-slate-900 opacity-90"></div>
+    <div class="container mx-auto relative px-6 pt-20 pb-32 lg:pb-48">
+      <div class="flex flex-col-reverse lg:flex-row items-center">
+        <div class="w-full lg:w-1/2 mt-10 lg:mt-0 text-white">
+          <h1 class="text-4xl lg:text-5xl font-bold leading-tight">
+            Enterprise AI Platform for Financial Institutions
+          </h1>
+          <p class="mt-6 text-lg text-slate-200">
+            Empower your financial institution with advanced AI agents for personalization, 
+            automation, and enhanced customer experiences. Built for enterprise-scale 
+            deployment with bank-grade security.
+          </p>
+          <div class="mt-8 space-x-4">
+            <a href="#" class="inline-block bg-white text-blue-600 font-semibold rounded-md px-8 py-3 hover:bg-slate-100 transition">
+              Request Enterprise Demo
+            </a>
+            <a href="#" class="inline-block text-white border border-white rounded-md px-8 py-3 hover:bg-blue-600 transition">
+              Download Security Whitepaper
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enterprise Features -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-16 text-slate-900">
+        Enterprise-Grade AI Platform
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Security -->
+        <div class="p-6 bg-slate-50 rounded-lg shadow-sm hover:shadow-md transition">
+          <div class="mb-4 flex items-center justify-center">
+            <div class="bg-blue-100 text-blue-600 w-16 h-16 flex items-center justify-center rounded-full">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                      d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-slate-900">Bank-Grade Security</h3>
+          <p class="text-slate-600">
+            SOC 2 Type II certified, end-to-end encryption, and compliance with global 
+            financial regulations including GDPR and PSD2.
+          </p>
+        </div>
+        <!-- Private Cloud -->
+        <div class="p-6 bg-slate-50 rounded-lg shadow-sm hover:shadow-md transition">
+          <div class="mb-4 flex items-center justify-center">
+            <div class="bg-blue-100 text-blue-600 w-16 h-16 flex items-center justify-center rounded-full">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                      d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-slate-900">Private Cloud Deployment</h3>
+          <p class="text-slate-600">
+            Deploy in your private cloud or on-premises infrastructure with full control 
+            over data sovereignty and compliance.
+          </p>
+        </div>
+        <!-- Scalability -->
+        <div class="p-6 bg-slate-50 rounded-lg shadow-sm hover:shadow-md transition">
+          <div class="mb-4 flex items-center justify-center">
+            <div class="bg-blue-100 text-blue-600 w-16 h-16 flex items-center justify-center rounded-full">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                      d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-slate-900">Enterprise Scalability</h3>
+          <p class="text-slate-600">
+            Handle millions of transactions with high availability and automatic scaling 
+            across global infrastructure.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Integration Section -->
+  <section class="py-20 bg-slate-50">
+    <div class="container mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-bold mb-6 text-slate-900">
+            Seamless Integration with Your Infrastructure
+          </h2>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="flex-shrink-0">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-lg font-semibold text-slate-900">API-First Architecture</h3>
+                <p class="mt-2 text-slate-600">
+                  RESTful and GraphQL APIs with comprehensive documentation and SDKs for 
+                  major programming languages.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="flex-shrink-0">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-lg font-semibold text-slate-900">Core Banking Integration</h3>
+                <p class="mt-2 text-slate-600">
+                  Pre-built connectors for major core banking systems and custom 
+                  integration support.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="flex-shrink-0">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-lg font-semibold text-slate-900">Compliance & Audit</h3>
+                <p class="mt-2 text-slate-600">
+                  Built-in compliance tools and comprehensive audit trails for regulatory 
+                  requirements.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <img src="https://public-assets.goshops.ai/diagram-export-1-27-2025-1_24_14-PM.svg" alt="Integration Architecture" class="w-full max-w-2xl" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-16 text-slate-900">
+        Enterprise AI Use Cases
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Intelligent Customer Service -->
+        <div class="bg-slate-50 rounded-lg p-8 shadow-sm hover:shadow-md transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                    d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-slate-900">Autonomous Customer Experience</h3>
+          <p class="text-slate-600">
+            AI agents that proactively monitor customer interactions, anticipate needs, and orchestrate 
+            personalized banking experiences across all channels. Automatically escalates complex cases 
+            to human agents with full context.
+          </p>
+        </div>
+
+        <!-- Intelligent Risk Management -->
+        <div class="bg-slate-50 rounded-lg p-8 shadow-sm hover:shadow-md transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-slate-900">Collaborative Risk Intelligence</h3>
+          <p class="text-slate-600">
+            Multi-agent systems that continuously monitor transactions, detect patterns, and collaborate 
+            to prevent fraud in real-time. Autonomous risk assessment and regulatory compliance checking 
+            for all financial operations.
+          </p>
+        </div>
+
+        <!-- Smart Product Recommendations -->
+        <div class="bg-slate-50 rounded-lg p-8 shadow-sm hover:shadow-md transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-slate-900">Predictive Financial Advisory</h3>
+          <p class="text-slate-600">
+            Autonomous agents analyze customer financial patterns, market conditions, and life events 
+            to proactively recommend personalized financial products and investment strategies at 
+            the optimal moment.
+          </p>
+        </div>
+
+        <!-- Process Automation -->
+        <div class="bg-slate-50 rounded-lg p-8 shadow-sm hover:shadow-md transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-slate-900">Intelligent Process Orchestration</h3>
+          <p class="text-slate-600">
+            Self-organizing AI agents streamline complex banking operations by coordinating across 
+            departments, automatically handling document processing, and managing regulatory workflows 
+            with full audit trails.
+          </p>
+        </div>
+
+        <!-- Portfolio Management -->
+        <div class="bg-slate-50 rounded-lg p-8 shadow-sm hover:shadow-md transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                    d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-slate-900">Dynamic Portfolio Optimization</h3>
+          <p class="text-slate-600">
+            Collaborative AI agents continuously monitor market conditions, rebalance portfolios, and 
+            execute trades while maintaining compliance with investment mandates and risk parameters.
+          </p>
+        </div>
+
+        <!-- Compliance Monitoring -->
+        <div class="bg-slate-50 rounded-lg p-8 shadow-sm hover:shadow-md transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-slate-900">Autonomous Compliance Assurance</h3>
+          <p class="text-slate-600">
+            AI agents that maintain real-time regulatory compliance by monitoring transactions, 
+            updating policies, and automatically generating required documentation and reports for 
+            auditing purposes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="bg-slate-900 text-white py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-6">
+        Transform Your Financial Institution with AI
+      </h2>
+      <p class="mb-8 text-lg text-slate-300 max-w-2xl mx-auto">
+        Schedule a demo to see how GoFinance can help your institution deliver 
+        personalized experiences at scale.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#" class="bg-blue-600 text-white font-semibold px-8 py-3 rounded-md hover:bg-blue-700 transition">
+          Request Demo
+        </a>
+        <a href="#" class="border border-white text-white font-semibold px-8 py-3 rounded-md hover:bg-white hover:text-slate-900 transition">
+          Contact Sales
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-12 border-t border-slate-200">
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Company Info -->
+        <div class="mb-8 md:mb-0">
+          <img src="https://www.gopersonal.com/newlogo.svg" alt="GoFinance Logo" class="w-32 mb-4">
+          <p class="text-slate-600 mb-4">
+            Enterprise AI Platform for Financial Institutions
+          </p>
+          <div class="space-x-4">
+            <a href="#" class="text-slate-400 hover:text-blue-600">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="w-6 h-6 inline" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+            <a href="#" class="text-slate-400 hover:text-blue-600">
+              <span class="sr-only">Twitter</span>
+              <svg class="w-6 h-6 inline" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Solutions -->
+        <div>
+          <h3 class="text-sm font-semibold text-slate-900 uppercase tracking-wider mb-4">Solutions</h3>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Personalization</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Process Automation</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Risk Management</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Compliance</a></li>
+          </ul>
+        </div>
+        <!-- Company -->
+        <div>
+          <h3 class="text-sm font-semibold text-slate-900 uppercase tracking-wider mb-4">Company</h3>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">About Us</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Careers</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Partners</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">News</a></li>
+          </ul>
+        </div>
+        <!-- Resources -->
+        <div>
+          <h3 class="text-sm font-semibold text-slate-900 uppercase tracking-wider mb-4">Resources</h3>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Documentation</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Security</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Compliance</a></li>
+            <li><a href="#" class="text-slate-600 hover:text-blue-600">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 pt-8 border-t border-slate-200">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-slate-500 text-sm">
+            &copy; 2025 GoFinance. All rights reserved.
+          </p>
+          <div class="mt-4 md:mt-0 space-x-6">
+            <a href="#" class="text-sm text-slate-500 hover:text-blue-600">Privacy Policy</a>
+            <a href="#" class="text-sm text-slate-500 hover:text-blue-600">Terms of Service</a>
+            <a href="#" class="text-sm text-slate-500 hover:text-blue-600">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
